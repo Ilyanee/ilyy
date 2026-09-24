@@ -57,22 +57,6 @@
   position: sticky;
 }
 
-.paint-left img{
-  width: auto;
-  height: 500px;
-  border: 8px ridge burlywood;
-  background-color: blanchedalmond;
-  justify-self: left;
-}
-
-.paint-right img{
-  width: auto;
-  height: 500px;
-  border: 8px ridge burlywood;
-  background-color: blanchedalmond;
-  justify-self: right;
-}
-
 .profile-badge {
   display: flex;
   flex-direction: column;
@@ -92,12 +76,6 @@ body {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
-}
-
-.persona-page {
-  max-width: fit-content;
-  margin: 0 auto;
-  background-color: #918c8c;
 }
 
 .img-top-container{
@@ -123,118 +101,6 @@ body {
   display: block;
 }
 
-.persona-h1{
-  color: #000;
-  font-size: 40px;
-  text-decoration: underline;
-}
-
-.persona-chapter{
-  padding: 2px;
-}
-
-.persona-text{
-  font-size: 18px;
-}
-
-.persona-timeline {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1.5rem;
-}
-
-.screen-bis {
-      position: relative;
-      width: 480px;
-      height: 320px;
-      margin: 0;
-      color: #fff;
-}
- 
-.card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 200px;
-      height: 260px;
-      margin: 0;
-      transform-origin: center center;
-      will-change: transform, opacity;
-      transition: transform 550ms ease, opacity 550ms ease;
-}
- 
-.card img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 10px;
-      display: block;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-      background: #1a1a1a; /* placeholder while images load / if missing */
-}
- 
-.card figcaption {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: -2.25rem;
-      text-align: center;
-      font-size: 0.95rem;
-      letter-spacing: 0.02em;
-      transition: opacity 300ms ease;
-      color: #000;
-      text-decoration: underline;
-}
-
-.persona-carousel {
-  width: 30%;
-  overflow: visible;
-  padding-bottom: 20px;
-  padding-left: 75%;
-  justify-content: flex-end;
-}
-
-.persona-carousel-track {
-  display: flex;
-  width: fit-content;
-  animation: carousel-scroll 18s infinite linear paused;
-  align-items: justify;
-  justify-content: justify;
-  overflow: visible;
-  padding: 5px;
-}
-
-.persona-carousel-track:hover {
-  animation-play-state: running;
-}
-
-.persona-carousel-track a {
-  flex: 0 0 100%;
-  display: flex;
-  align-items: justify;
-  justify-content: justify;
-  overflow: visible;
-  padding: -5px;
-}
-
-.persona-carousel-track img {
-  width: 100%;
-  height: 420px;
-  object-fit: contain;
-  display: block;
-}
-
-@keyframes carousel-scroll {
-  0%, 12% { transform: translateX(0); }
-  14%, 26% { transform: translateX(-100%); }
-  28%, 40% { transform: translateX(-200%); }
-  42%, 54% { transform: translateX(-300%); }
-  56%, 68% { transform: translateX(-400%); }
-  70%, 82% { transform: translateX(-500%); }
-  84%, 100% { transform: translateX(-600%); }
-}
-
 .advice{
   font-size: 16px;
   font-weight: 200;
@@ -242,21 +108,6 @@ body {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.game-menu {
-  margin-bottom: 12px;
-}
-
-.game-menu summary {
-  cursor: pointer;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.game-menu ul {
-  margin: 0 0 0 20px;
-  padding-left: 20px;
 }
 
 .backpagelink{
@@ -566,27 +417,4 @@ body {
     width:20px;
     height:20spx;
     display:block;
-}
-
-.pokemon-page{
-  background: scroll, linear-gradient(to bottom, #f10909, #adc5bf);
-  background-size: 50%;
-}
-
-.pokemon-h1{
-  font-family: "Caveat";
-}
-
-.pokemon-h2{
-  text-align: left;
-  padding-left: 5%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-decoration: underline;
-  color: linear-gradient(to right, rgb(214, 53, 9), rgb(9, 53, 214));
-}
-
-.pokemon-text{
-  text-align: justify;
-  font-size: 18px;
 }
